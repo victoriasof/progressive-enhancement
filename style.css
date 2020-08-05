@@ -1,0 +1,79 @@
+p {
+    font-size: 14px;
+    font-family: Serif;
+    color: Indigo;
+    word-spacing: 5px;
+}
+
+a {
+    font-weight: bold
+}
+a:visited {
+    color:darkred;
+}
+a:hover {
+    color:darkgreen;
+}
+
+div {
+    width: 90%;
+    margin: auto;
+    border: 15px solid green;
+    padding: 50px;
+}
+
+q {
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: grey;
+    border-left: dashed 3px;
+    border-spacing: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+body {
+    background-image: url("jungle.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    background-image: linear-gradient(darkseagreen, white);
+}
+
+#q {
+    font-style: italic;
+}
+
+.villagers {
+    border-left-color: midnightblue;
+}
+.farmer {
+    border-left-color: darkred;
+}
+
+header>h1 {
+    background-color: yellow;
+}
+
+[attribute="good"] {
+    text-transform: uppercase;
+    color: green;
+
+}
+[attribute="bad"] {
+    text-transform: uppercase;
+    color: red;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+
+header>p {
+    font-weight: bold;
+}
