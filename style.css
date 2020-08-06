@@ -1,6 +1,5 @@
 p {
     font-size: 14px;
-    font-family: Serif;
     color: Indigo;
     word-spacing: 5px;
 }
@@ -24,26 +23,20 @@ div {
 
 q {
     width: 50%;
-    margin: auto;
+    margin: 80px auto;
     font-size: 160%;
     background-color: grey;
     border-left: dashed 3px;
     border-spacing: 30px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-
+    display: block;
+    font-style: italic;
 }
 
 body {
-    background-image: url("jungle.jpg");
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
     background-image: linear-gradient(darkseagreen, white);
-}
-
-#q {
-    font-style: italic;
 }
 
 .villagers {
@@ -57,12 +50,12 @@ header>h1 {
     background-color: yellow;
 }
 
-[attribute="good"] {
+.good {
     text-transform: uppercase;
     color: green;
 
 }
-[attribute="bad"] {
+.bad {
     text-transform: uppercase;
     color: red;
 }
@@ -80,6 +73,7 @@ header>p {
 
 img {
     float:right;
+    width: 50%;
 }
 
 #note {
@@ -93,12 +87,23 @@ img {
 
 body {
     padding-bottom: 10%;
+    width: 90%;
 }
 
 * {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
 }
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-</style>
+section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section {
+    width: 100%;
+}
+
+article {
+    display: block;
+}
