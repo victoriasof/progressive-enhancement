@@ -77,3 +77,28 @@ tr:nth-child(even) {
 header>p {
     font-weight: bold;
 }
+
+img {
+    float:right;
+}
+
+#note {
+    background-color: white;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 0.5%;
+}
+
+body {
+    padding-bottom: 10%;
+}
+
+* {
+    font-family: Open Sans;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+</style>
